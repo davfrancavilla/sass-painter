@@ -1,0 +1,58 @@
+nav {
+  background-color: black;
+  color: white;
+}
+
+nav i {
+  color: #009dff;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  line-height: 50px;
+}
+
+nav .top {
+  height: 50px;
+}
+
+nav .top ul {
+  float: right;
+}
+
+nav .top ul li {
+  float: right;
+  margin-right: 20px;
+}
+
+nav .bottom {
+  height: 50px;
+}
+
+nav .bottom img {
+  height: 20px;
+  margin: 15px 0;
+  float: left;
+}
+
+nav .bottom ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+

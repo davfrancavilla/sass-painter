@@ -1,0 +1,39 @@
+
+
+nav {
+    background-color: black;
+    color: white;
+    i {
+        color: #009dff;
+        margin-right: 10px;
+    }
+    ul {
+        list-style: none;
+        line-height: 50px;
+    }
+    .top {
+        height: 50px;
+        ul {
+            float: right;
+            li {
+                float: right;
+                margin-right: 20px;
+            }
+        }
+    }
+    .bottom {
+        height: 50px;
+        img {
+        height: 20px;
+        margin: 15px 0;
+        float: left;
+    }
+    ul {
+        li {
+            display: inline-block;
+            margin-left: 50px;
+        }
+    }
+    }
+    
+}
