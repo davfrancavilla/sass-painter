@@ -4,7 +4,7 @@ nav {
 }
 
 nav i {
-  color: #009dff;
+  color: #009cff;
   margin-right: 10px;
 }
 
@@ -49,10 +49,148 @@ nav .bottom ul li {
 
 .container {
   width: 90%;
+  height: 100%;
   margin: 0 auto;
 }
 
 body {
   font-family: sans-serif;
+}
+
+.jumbotron {
+  height: 500px;
+  background: black;
+  background: linear-gradient(304deg, black 0%, #287380 89%);
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron .container .author {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+}
+
+.jumbotron .container > .left {
+  color: white;
+  float: right;
+  padding-right: 70px;
+  margin-top: 100px;
+}
+
+.jumbotron .container > .left h2,
+.jumbotron .container > .left h3 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.jumbotron .container > .left li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.jumbotron .container > .left li i {
+  color: gray;
+}
+
+.jumbotron .container > .left .button {
+  background-color: #666666;
+  padding: 10px;
+  width: 210px;
+  position: relative;
+  cursor: pointer;
+}
+
+.jumbotron .container > .left .button .left {
+  border-right: 1px solid white;
+  margin-right: 35px;
+  padding-right: 5px;
+}
+
+.jumbotron .container > .left .button .right {
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron .container > .left .button i {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.jumbotron .container > .left .button:hover {
+  background-color: #595959;
+}
+
+.jumbotron .container > .right {
+  position: relative;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+  padding: 20px;
+  background-color: black;
+  float: right;
+}
+
+.jumbotron .container > .right img {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  height: 70px;
+  width: 70px;
+}
+
+.jumbotron .container > .right .price {
+  font-size: 35px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.jumbotron .container > .right .download {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.jumbotron .container > .right button {
+  background-color: #009cff;
+  font-size: 15px;
+  color: white;
+  border-style: none;
+  padding: 7px 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.jumbotron .container > .right button:hover {
+  background-color: #008ce6;
+}
+
+.jumbotron .container > .right .offer {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+.jumbotron .container > .right .offer div {
+  margin-bottom: 10px;
+}
+
+.jumbotron .container > .right .offer div:last-of-type {
+  font-size: 14px;
+}
+
+.jumbotron .container > .right .offer a {
+  color: #009cff;
 }
 
