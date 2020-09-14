@@ -1,0 +1,18 @@
+.first-gray {
+    background-color: #e6e6e6;
+    position: sticky;
+    top: 0;
+    .container {
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        padding: 20px;
+        cursor: pointer;
+        border-bottom: 2px solid #e6e6e6;
+        &:hover {
+            background-color: white;
+            border-bottom: 2px solid black;
+        }
+    }
+}

@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 nav {
   background-color: black;
   color: white;
@@ -192,5 +194,86 @@ body {
 
 .jumbotron .container > .right .offer a {
   color: #009cff;
+}
+
+.first-gray {
+  background-color: #e6e6e6;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.first-gray .container {
+  text-align: center;
+}
+
+.first-gray li {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.first-gray li:hover {
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+.yt-video {
+  background-image: url(https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.yt-video .container {
+  text-align: center;
+  color: white;
+}
+
+.yt-video .container .text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.yt-video .container .text h4 {
+  font-size: 32px;
+  padding-top: 70px;
+  margin-bottom: 15px;
+}
+
+.yt-video .container a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  margin: 30px 0;
+}
+
+.yt-video .container a i {
+  color: #818181;
+  font-size: 16px;
+  border: 1px solid #818181;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.yt-video .container .img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.yt-video .container .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ai-section {
+  height: 700px;
 }
 
